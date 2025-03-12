@@ -1,0 +1,174 @@
+@charset "utf-8";
+@font-face {
+   font-family: idroid ;
+   src: url(idroid.otf) format("opentype");
+   font-weight: normal;
+   font-style: normal;
+
+}
+body {
+  font-family: idroid ;
+  align-content: center;
+  margin: 0px;
+  font-weight: normal;
+  justify-content: center;
+  
+}
+
+header {
+   color: white;
+   text-align: center;
+   background-color: rgb(49, 175, 105);
+   padding: 10px;
+   box-shadow: inset 0px -20px 20px rgba(0, 0, 0, 0.534);
+   
+}
+
+header > p {
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+nav {
+   text-align: left;
+   
+}
+
+nav > a {
+   padding: 6px;
+   color: white;
+   text-decoration: none;
+}
+
+nav > a:hover {
+   color: #003317;
+}
+
+body > div.conteudo {
+   background-color: #84E1AD;
+   padding-top: 0px;
+   padding-right: 170px;
+   padding-bottom: 10px;
+   padding-left: 170px;
+   box-shadow: inset 0px 2px 20px 0px rgba(0, 0, 0, 0.695);
+   min-width: 420px ;
+       
+}
+
+main{
+   background-color: #ffffff;
+   border-radius: 0px 0px 10px 10px;
+   box-shadow: 3px 3px 11px 0px;
+   color:#003317;
+   padding-bottom: 10px;
+   
+}
+
+main > p {
+   text-align:left;
+}
+
+main > h1{
+   margin: auto;
+   
+}
+
+main > h2 {
+   background: linear-gradient(90deg, #84e1ac88, #84E1AD 35%, rgb(255, 255, 255) 100%);
+   padding: auto;
+   padding-left: 5px;
+   
+}
+
+a {
+   color: #003317;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+.video {
+   background-color: #274e2a;
+   margin: 20px auto 40px auto;
+   padding-top: 15px;
+   padding-right: 30px;
+   padding-bottom: 15px;
+   padding-left: 30px;
+}
+
+div > h3 {
+   color: #ffffff;
+   background-color: #2FA866;
+   text-align: left;
+   border-radius: 15px 15px 0px 0px;
+   margin: 0px 0px 25px 0px;
+   padding: 10px;
+}
+
+.sujestao {
+   background-color: #C5EBD6;
+   border-radius: 15px;
+   margin: 25px;
+   box-shadow: 4px 3px 8px 0px rgba(0, 0, 0, 0.512);
+   
+}
+
+#meio {
+   color:#003317;
+   text-align: center;
+   margin: 10px;
+}
+
+div > p {
+   color:#003317;
+   margin: 15px;
+}
+
+footer {
+   color: #ffffff;
+   font-weight:lighter;
+   text-align: center;
+   background-color: #003317;
+   margin-top: 0px;
+   padding: 0px;
+}
+
+.final{
+   margin: auto;
+}
+
+.link {
+   color: #ffffff;
+   font-weight: 900;
+
+}
+
+.dan-droids {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.irina-blok {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.irina-blok > img {
+   width: 1179px;
+}
+
+.bugdroid {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.video {
+   display: flex;
+   align-items: center;
+   justify-content: center;            
+}

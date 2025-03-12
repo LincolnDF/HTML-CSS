@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color:dimgray;
+            margin: 10px 1px 10px 1px;
+            
+        }
+        header {
+            padding: 5px;
+            margin: 15px 15px 5px 15px;
+            background-color:rgb(255, 255, 255);
+            border: solid;
+            border-radius: 0px 10px ;
+            box-shadow: 3px 8px 13px 0px #0000009e;
+            
+        }
+       header > h1 {
+            font-family:fantasy;
+            font-weight: 200;
+            text-align: center;
+            
+        }
+        
+        nav {
+            background-color: rgb(172, 170, 170);
+            padding: 5px;
+            border-style: solid ;
+            text-align: center;
+            box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.827);   
+        }
+        nav > a {
+            color: black;
+            padding: 3px;
+            text-decoration: none;
+            box-shadow: inset 0px 1px 6px 2px black;
+        }
+        
+        a:hover {
+            color: red;
+
+        }
+        main {
+            background-color: rgb(255, 255, 255);
+            text-align: justify;
+            margin: 5px 15px 5px 15px;
+            border-style: solid;
+            border-radius: 0px 10px ;
+            box-shadow: 3px 8px 13px 0px #0000009e;
+        }
+        h2 {
+            font-family:fantasy;
+            font-weight: 200;
+            text-align: center;
+        }
+        p {
+            text-align:center;
+        }
+
+        footer {
+            font-family: cursive;
+            background-color: black;
+            margin: 10px auto 10px auto;     
+            border: 1px solid white;
+            border-right: none;
+            border-left: none;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        footer > p > a {
+            text-decoration: none;
+            color: white;
+        }
+        footer > p > a:hover{
+            text-decoration: underline;
+            color: green;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>NEWS</h1>
+        <nav>
+            <a href="#">teste1</a>
+            <a href="#">teste2</a>
+            <a href="#">teste3</a>
+            <a href="#">teste4</a>
+            <a href="#">teste5</a>
+           
+        </nav>
+
+    </header>
+    <main>
+        <section>
+            <section id="assunto">
+                <article id="noticias">
+                    <h2>Noticias</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, nam repellendus doloremque numquam tenetur praesentium mollitia fugiat! Non numquam, qui, sequi quasi sit, laborum aut totam soluta nobis repellat dolore?</p>
+                    <aside>
+                        <p>By:</p>
+                    </aside>
+                </article>
+
+            </section>
+            
+        </section>
+    </main>
+    <footer>
+        <p><a href="#">@lincoln_df</a></p>
+    </footer>    
+</body>
+</html>

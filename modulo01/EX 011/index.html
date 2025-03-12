@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>imagen dinamica</h1>
+    <p>As imagens dinamicas server para a imagem se ajustar para diferentes dispositivos de diferentes tamanhos, podemos fazer os testes diminuindo e almentando a janela do navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="foto grande">
+        <!--A ordem das imagens tem que ser debaixo para cima, tendo a ultima imagem (primeira)como a imagem base-->
+    </picture>
+    
+        <h1>Midia de audio</h1>
+        <p>vamos adicionar midias</p>
+        
+        <audio src="midia/trilha.mp3" controls></audio>
+   
+        <!--podemos adicionar tributos na tag AUDIO como CONTROLS, LOOP, AUTOPLAY e PRELOAD(auto, metadata e none)-->
+        <audio controls preload="metadata">
+            <source src="midia/guanacast33.mp3" type="audio/ogg">
+        </audio>
+    
+         <!--compativel com MP3 WAV OGG caso uma não funcione testar o outro formato-->
+
+    </picture>
+    
+    
+</body>
+</html>

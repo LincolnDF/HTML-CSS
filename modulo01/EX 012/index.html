@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionando midia de video</title>    
+</head>
+<body>
+    <h1>Adicionando midia de video</h1>
+    <!--Existe tipos de formatos de video (WEBM, MP4, M4V e OGV) lembrando que temos que tomar o mesmo cuidado que as imagens "TAMANHO DO VIDEO e QUALIDADE DE VIDEO" para nao pesar no site.
+    Exemplo para videos hospedados localmente -->
+    
+     <video width="500" poster="midia/capadovideo.jpg" controls autoplay>  <!--O atributo WIDTH foi usada para mudar o tamanho da imagem e o atributo POSTER para definir uma capa para o video-->
+        <source src="midia/Meuvideohb.mp4"     type="video/mp4">
+        <source src="midia/meuvideoogv.ogv" type="video/ogg">   
+        <!--Quanto mais formatos de midias tiver, mais navegadores vao abrir as midias -->
+        <!--Texto que aparecera caso nao seja possivel reproduzir o video-->
+         <p>Nao foi possivel reproduzir o video</p>
+    </video>       
+
+     <h1>Agora vamos colocar uma midia de video de HOSPEDAGEM EXTERNA (YouTube)<!--Mas funciona com outros sites, so fazer da mesma forma que foi feito para pegar o codigo do YouTube--></h1>
+    
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/H5cjizFiKdo?si=1UPJV3DgseOenEPe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     <!--O codigo acima foi copiado do proprio YouTube clicando em compartilhar e depois em incorporar, podemos mudar o codigo se necessario por exemplo: tamanho da janela do video, atributos na tag etc...-->
+
+
+    
+</body>
+</html>
+      
