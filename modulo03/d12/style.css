@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive, Helvetica, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 70px;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+header > p {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    font-size: 3.5vw;
+    line-height: 100px;
+}
+
+.normal {
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.imagem > p {
+    background-color: rgba(0, 0, 0, 0.734);
+    color: white;
+    border-radius: 0px 50px 0px 50px;
+    margin-right: 850px;
+    min-width: 400px;
+    padding: 10px;
+
+}
+
+
+.imagem#joaninha {
+    background-image: url("imagens/background001.jpg");
+}
+
+.imagem#livro {
+    background-image: url("imagens/background002.jpg");
+}
+
+.imagem {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    box-shadow: inset 0px 1px 20px 12px #0606069f;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
