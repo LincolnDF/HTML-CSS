@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de formulario</title>
+</head>
+<body>
+    <h1>Exemplo de formulario</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+        <fieldset>
+
+            <!-- Quando o input for o botao de radio, os intens do mesmo grupo tem que ter o mesmo NAME para que so uma opçao seja marcada 
+             
+            podemos usar tanto nos botoes de radio quanto nos CHECKBOX o atributo CHECKED no item que quer deixar marcado por padrao-->
+
+
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="imasculino"> <label for="imasculino">Masculino</label> <br>
+            <input type="radio" name="sexo" id="ifeminino"> <label for="ifeminino">Feminino</label>
+
+        </fieldset>
+        
+        <fieldset>
+            <legend>Esporte favorito</legend>
+            
+            <input type="checkbox" name="basquete" id="ibasquete"> <label for="ibasquete">Basquete</label>  <br>
+
+            <input type="checkbox" name="futebol" id="ifutebol"> <label for="ifutebol">Futebol</label> <br>
+
+            <input type="checkbox" name="nataçao" id="inataçao"> <label for="inataçao">Nataçao</label> <br>
+
+            <input type="checkbox" name="tenis" id="itenis"> <label for="itenis">Tenis</label> <br>
+
+            <input type="checkbox" name="corrida" id="icorrida"> <label for="icorrida">Corrida</label> <br>
+
+        </fieldset>
+
+
+
+        <p>
+            <input type="submit" value="Eviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+
+
+    </form>
+</body>
+</html>
