@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+
+    <!-- estudar mais sobre ReGex (exprecoes regulares) -->
+
+
+    <h1>exemplo de formulario</h1>
+    <form action="cadastr.php" method="get" autocomplete="on">
+        <fieldset id="pessoal">
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" placeholder="Nome e Sobrenome ">
+            </p>
+            <p>
+                <label for="iemail">E-mail:</label>
+                <input type="email" name="mail" id="iemail" autocomplete="email" required placeholder="Exemplo@email.com">
+            </p>
+            
+            <p>
+                <label for="itelefone">Telefone</label>
+                <input type="tel" name="telefone" id="itelefone" autocomplete="tel" required pattern="^\d{4,5}-\d{4,7}$" placeholder="1234-5678">
+            </p>
+        </fieldset>
+
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
