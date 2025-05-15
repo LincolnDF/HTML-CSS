@@ -1,0 +1,9 @@
+@charset "UTF8";@charset "UTF8";
+
+
+/* MODO portrait*/
+
+body {
+    background-image: url(../img/cev-portrait.jpg);
+    background-position: center bottom;
+}
