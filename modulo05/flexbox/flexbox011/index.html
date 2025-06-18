@@ -5,7 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexible Box</title>
 
+<!--
+flex-shrink
+flex-grow 
+-->
 
+<!-- 
+shorthand
+-------------
+flex-basis: 250px;
+flex-grow: 1;
+flex-shrink: 0;
+
+flex: 1 0 250px;
+-->
     <style>
         div.conteiner{
             display: flex;
@@ -16,12 +29,26 @@
 
         div.item {
             flex-basis: 250px;
-            flex-shrink: 1;
-            flex-grow: 1;
+            
 
             text-align: center;
             background-color: blueviolet;
             border: 1px solid black;
+        }
+
+        div#cxa {
+            flex-shrink: 1;
+            flex-grow: 1;
+        }
+        div#cxb {
+            flex-shrink: 1;
+            flex-grow: 4;
+
+        }
+        div#cxc {
+            flex-shrink: 1;
+            flex-grow: 8;
+
         }
     </style>
 
@@ -31,9 +58,9 @@
 </head>
 <body>
     <div class="conteiner">
-        <div class="item">A</div>
-        <div class="item">B</div>
-        <div class="item">C</div>
+        <div class="item" id="cxa">A</div>
+        <div class="item" id="cxb">B</div>
+        <div class="item" id="cxc">C</div>
     </div> 
 </body>
 </html>
