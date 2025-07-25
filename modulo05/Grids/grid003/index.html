@@ -9,15 +9,27 @@
         div.conteiner {
             display: grid;
             gap: 10px;
-            height: 250px;
             border: 3px dotted blue;
             
+            grid-template-rows: reapet(3, 80px);
+            grid-template-columns: 1fr 4fr 1fr;
             
-            grid-template: repeat(3, auto) / repeat(3, auto);
+            /* grid-template-columns: 100px 40% repeat(2, 1fr); */
+
+            grid-auto-rows: 80px;
+            /* "grid-auto-rows" define o tamano das linhas adicionais */
+
             
 
-            place-items: start center ;
-            place-content: space-between end;
+            grid-auto-columns: 120px;
+            /* "grid-auto-columns" define o tamanho das colunas adicionais */
+
+            grid-auto-flow: row;
+            /* "grid-auto-flow" Define se o conteudo adicional vai ser colocado em coluna ou em linha  row ou column */
+            
+
+            place-items: normal normal;
+            place-content: normal normal;
             
         }
 
@@ -42,6 +54,8 @@
         <div class="item">F</div>
         <div class="item">G</div>
         <div class="item">H</div>
+        <div class="item">I</div>
+        <div class="item">J</div>
     </div>
 </body>
 </html>

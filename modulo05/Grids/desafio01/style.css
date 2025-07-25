@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+.conteiner{
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    grid-template-rows: 125px 50px 500px 50px;
+    text-align: center;
+    gap: 5px;
+    border: 2px solid black;
+}
+
+.topo {
+    background-color: red;
+
+    grid-row: 1/2;
+    grid-column: 1/-1;
+}
+.menu {
+    background-color: blue;
+
+    grid-row: 2/3;
+    grid-column: 1/-1;
+}
+.principal {
+    background-color: green;
+
+    grid-row: 3/4;
+    grid-column: 1/-2;
+}
+.secundario {
+    background-color: purple;
+
+    grid-row: 3/4;
+    grid-column: -2/-1;
+}
+.rodape {
+    background-color: yellow;
+
+    grid-row: 4/5;
+    grid-column: 1/-1;
+}
